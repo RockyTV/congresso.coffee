@@ -1,0 +1,18 @@
+{
+  "name": "congresso.coffee",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main/init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandre Oliveira <rockytvbr@gmail.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "coffee-react": "^5.0.0",
+    "material-ui": "^0.15.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-tap-event-plugin": "^1.0.0"
+  }
+}
