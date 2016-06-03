@@ -7,7 +7,7 @@ app.on 'ready', ->
     height: 600
   })
 
-  mainWindow.loadURL "file://#{__dirname}/index.html"
+  mainWindow.loadURL "file://#{__dirname}../renderer/index.html"
   mainWindow.webContents.openDevTools()
 
   mainWindow.on 'closed', ->
