@@ -1,3 +1,6 @@
 node_modules
 app/renderer/**/*.css
-app/renderer/**/*.html
+app/renderer/**/*.js
+react-devtools
+
+*.log
