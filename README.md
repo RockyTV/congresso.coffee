@@ -4,9 +4,11 @@ congresso.coffee is an application built with [Electron](https://electron.atom.i
 Most of the scripts are written in [CoffeeScript](https://coffeescript.org).
 
 ### Building
-To build the app, you'll need `node` and `npm` installed on your computed. Then, use:
+To build the app, you'll need `node` and `npm` installed on your computer. Then, use:
 
-`npm install`
+```
+npm install
+```
 
 to install the required dependencies.
 
