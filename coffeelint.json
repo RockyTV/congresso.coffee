@@ -1,0 +1,40 @@
+{
+  "coffeelint":{
+    "transforms": ["coffee-react-transform"]
+  },
+  "braces_spacing": {
+    "value": 0,
+    "level": "error"
+  },
+  "colon_assignment_spacing": {
+    "spacing": {
+      "left": 0,
+      "right": 1
+    },
+    "level": "warn"
+  },
+  "empty_constructor_needs_parens": {
+    "value": false,
+    "level": "error"
+  },
+  "indentation": {
+    "value": 2,
+    "level": "error"
+  },
+  "max_line_length": {
+    "value": 120,
+    "level": "warn"
+  },
+  "missing_fat_arrows": {
+    "value": true,
+    "level": "warn"
+  },
+  "no_empty_param_list": {
+    "value": true,
+    "level": "error"
+  },
+  "no_backticks": {
+    "value": false,
+    "level": "warn"
+  }
+}

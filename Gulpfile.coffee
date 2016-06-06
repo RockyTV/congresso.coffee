@@ -1,10 +1,11 @@
 gulp = require 'gulp'
-del = require 'del'
-cjsx = require 'gulp-cjsx'
+coffeelint = require 'gulp-coffeelint'
 
-gulp.task 'cjsx', ->
-  gulp.src('app/renderer/app.cjsx')
-    .pipe(cjsx({bare: true}))
-    .pipe(gulp.dest('app/renderer'))
+gulp.task 'lint', ->
+  gulp.src('app/renderer/**/*.cjsx')
+    .pipe(coffeelint('coffeelint.json'))
+    .pipe(coffeelint.reporter())
 
-gulp.task 'default', ['cjsx']
+gulp.watch('app/renderer/**/*.cjsx', ['lint'])
+
+gulp.task 'default', ['lint']
