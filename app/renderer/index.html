@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset='utf-8'>
-    <link rel='stylesheet' href='css/style.css'>
+    <!--<link rel='stylesheet' href='css/style.css'>-->
     <script>
       window.$ = window.jQuery = require('jquery');
       window.React = require('react');
-      require('electron').remote.getCurrentWebContents().on('dom-ready', () => {
+      $(document).ready(() => {
         require('coffee-react/register');
         require('./app.cjsx');
       });
